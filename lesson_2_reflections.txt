@@ -1,0 +1,11 @@
+New reflections for lesson 2.
+
+
+
+
+How is the staging area different from the working directory and the repository? 
+The staging area is a medium step between the working directory that you're currently opperating in, and the commit. 
+
+
+What value do you think it offers?
+
