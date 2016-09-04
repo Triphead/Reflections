@@ -1,0 +1,16 @@
+ git commands to remember
+
+ "pwd" - print working directory. prints to the console the directory location that you're currently working in.
+ "cd c:xx/xxx/xxx" - Change directory, change directory to specified directory location
+ "ls" - list all files and folders in the directory. 
+ "ls -a" - List all files and folders in the directory including all hidden folders and files that begin with .xxx
+ "mkd xxx" - Create a new folder in the location you're currently in.
+ "q"
+
+
+ "git clone" - clone a reposityory including all previous commits in the repository.
+ "git copy" - copy a gt repository or a directory
+ "git log" - Lists all of the commits of the respository that you're currently in
+ "git init" - initialise a directory as a git repostitory. 
+ "git diff xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx" - compare two git commits and dispay the changes made between them. -- ++
+ "git status" - show the status of the current commit compared with the last commit.
