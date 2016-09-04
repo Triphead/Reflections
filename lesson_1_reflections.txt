@@ -13,6 +13,7 @@
  "git log" - Lists all of the commits of the respository that you're currently in
  "git init" - initialise a directory as a git repostitory. 
  "git diff xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx" - compare two git commits and dispay the changes made between them. -- ++
+ "git diff" - NO ARGUMENTS. This compares the changes made in your working directory (what you're currently working on) to the files that you have already loaded into the staging area via git add.
  "git status" - show the status of the current commit compared with the last commit.
  "git add xxxxxxx.xxx" - this adds the specified file to the git staging area. Ready for the file to be commited
   
