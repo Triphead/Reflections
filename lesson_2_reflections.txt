@@ -17,3 +17,8 @@ When working with experimental changes or changes that may not necesarily want t
 
 How do the diagrams help you visualize the branch structure?
 By allowing you to see the whole tree including which commits are linked with which other commmits, and which commits are unreachable as they're currently not on a branch. Viewing a diagram like this allows us to easily see which changes have been made and where we can find them by accessing the correct branches.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together, merges the two heads of each of the branches and all of the updates up to that point. Merging the the branches also merges all of the commits. The commits are then listed in order of time stamps rather than in order of parents. The command "git show xxxxxxxxxxxxx" shows the difference between the specified commit and that commits direct parent. 
+The command "git diff --graph" displays an easy to read diagram of how the commits were made along each of the branches.
