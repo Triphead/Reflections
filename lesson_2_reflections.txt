@@ -9,3 +9,5 @@ The staging area is a medium step between the working directory that you're curr
 
 What value do you think it offers?
 
+How can you use the staging area to make sure you have one commit per logical change?
+By comparing the staged changes to the latest commit.
