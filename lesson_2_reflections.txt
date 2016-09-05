@@ -22,3 +22,7 @@ By allowing you to see the whole tree including which commits are linked with wh
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches together, merges the two heads of each of the branches and all of the updates up to that point. Merging the the branches also merges all of the commits. The commits are then listed in order of time stamps rather than in order of parents. The command "git show xxxxxxxxxxxxx" shows the difference between the specified commit and that commits direct parent. 
 The command "git diff --graph" displays an easy to read diagram of how the commits were made along each of the branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros of gits auto merging are that it is a very quick and efficient way of merging multiple branches together. The cons of trying to merge branches automatically are that there may be conflicting changes made to the same files on different branches. This will give you a merge conflict error. and will ask you to resolve the issue before you complete the merge. 
+
