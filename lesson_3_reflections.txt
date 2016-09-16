@@ -1,0 +1,8 @@
+Lesson 3, Linking your Git repository to a Git Hub account.
+
+	KEY COMMANDS
+		- git remote  -  This returns the name of the remote that you're working with.
+		- git remote <remote name> <URL for github repository> - This creates a remote with the the name you specified in the argument of the command. Origin is usually the innitial remote name if you don't already have a remote in the git hub account.
+		- git push <remote name> <branch to add>  - This command pushes the branch specified to the github url associated with the remote name specified in command "git remote <...> <...>"
+		- git pull  - 
+		- git 
