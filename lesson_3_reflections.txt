@@ -6,3 +6,8 @@ Lesson 3, Linking your Git repository to a Git Hub account.
 		- git push <remote name> <branch to add>  - This command pushes the branch specified to the github url associated with the remote name specified in command "git remote <...> <...>"
 		- git pull  - 
 		- git 
+		
+		
+	When would you want to use a remote repository rather than keeping all your work local?
+		A remote repository is ideal for when you're working within a group of contributors. Also it can be really useful as a back up location for you work. Another key reson for storing you repository on git hub is that you may use more than one computer for you work, the online repository will let you access your commits as if you're using the same computer.
+		
